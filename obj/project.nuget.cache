@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/rXa41e3Y68=",
+  "success": true,
+  "projectFilePath": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johnn\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\johnn\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
