@@ -1,6 +1,15 @@
-<h2>Plant List</h2>
-<ul>
-  <li *ngFor="let plant of plants">
-    🌱 {{ plant.name }} ({{ plant.type }})
-  </li>
-</ul>
+<div *ngIf="isLoading">Loading plants...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<div *ngIf="!isLoading && plants.length > 0">
+  <div *ngFor="let plant of plants" class="plant-card">
+    <h3>{{ plant.name }}</h3>
+    <img [src]="plant.imageUrl" alt="{{ plant.name }}" width="150" />
+    <p><strong>Best Time to Plant:</strong> {{ plant.bestPlantingTime }}</p>
+    <p>{{ plant.description }}</p>
+  </div>
+</div>
+
+<div *ngIf="!isLoading && plants.length === 0">
+  No plants found.
+</div>

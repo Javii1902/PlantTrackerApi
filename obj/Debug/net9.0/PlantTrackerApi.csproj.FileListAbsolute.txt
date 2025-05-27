@@ -166,3 +166,4 @@ F:\Programs\New folder\PlantTrackerApi\bin\Debug\net9.0\plant-tracker-frontend\p
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net9.0\plant-tracker-frontend\tsconfig.app.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net9.0\plant-tracker-frontend\tsconfig.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net9.0\plant-tracker-frontend\tsconfig.spec.json
+F:\Programs\New folder\PlantTrackerApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
