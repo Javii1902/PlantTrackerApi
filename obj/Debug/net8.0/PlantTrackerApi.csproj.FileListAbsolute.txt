@@ -167,3 +167,5 @@ F:\Programs\New folder\PlantTrackerApi\obj\Debug\net8.0\refint\PlantTrackerApi.d
 F:\Programs\New folder\PlantTrackerApi\obj\Debug\net8.0\PlantTrackerApi.pdb
 F:\Programs\New folder\PlantTrackerApi\obj\Debug\net8.0\PlantTrackerApi.genruntimeconfig.cache
 F:\Programs\New folder\PlantTrackerApi\obj\Debug\net8.0\ref\PlantTrackerApi.dll
+F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
