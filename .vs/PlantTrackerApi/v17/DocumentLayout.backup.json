@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "F:\\Programs\\New folder\\PlantTrackerApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\migrations\\20250525053814_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:migrations\\20250525053814_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\migrations\\20250525054713_addplantdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:migrations\\20250525054713_addplantdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\data\\plantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:data\\plantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\planttrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:planttrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,132 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250525054713_AddPlantDetails.cs",
-              "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Migrations\\20250525054713_AddPlantDetails.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250525054713_AddPlantDetails.cs",
-              "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Migrations\\20250525054713_AddPlantDetails.cs",
-              "RelativeToolTip": "Migrations\\20250525054713_AddPlantDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T05:47:16.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250525053814_InitialCreate.cs",
-              "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Migrations\\20250525053814_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250525053814_InitialCreate.cs",
-              "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Migrations\\20250525053814_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250525053814_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T05:38:14.722Z",
+              "WhenOpened": "2025-06-01T00:19:48.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T04:09:00.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "PlantsController.cs",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Controllers\\PlantsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlantsController.cs",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Controllers\\PlantsController.cs",
               "RelativeToolTip": "Controllers\\PlantsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T04:04:43.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-25T03:38:59.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:18:08.001Z"
+              "WhenOpened": "2025-05-25T03:18:08.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T03:17:29.599Z"
+              "WhenOpened": "2025-05-25T03:17:29.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlantContext.cs",
-              "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Data\\PlantContext.cs",
-              "RelativeDocumentMoniker": "Data\\PlantContext.cs",
-              "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Data\\PlantContext.cs",
-              "RelativeToolTip": "Data\\PlantContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:16:58.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "PlantTrackerApi.csproj",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
               "RelativeDocumentMoniker": "PlantTrackerApi.csproj",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
               "RelativeToolTip": "PlantTrackerApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-25T03:16:36.155Z"
+              "WhenOpened": "2025-05-25T03:16:36.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Plant.cs",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Models\\Plant.cs",
               "RelativeDocumentMoniker": "Models\\Plant.cs",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Models\\Plant.cs",
               "RelativeToolTip": "Models\\Plant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:16:12.488Z"
+              "WhenOpened": "2025-05-25T03:16:12.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

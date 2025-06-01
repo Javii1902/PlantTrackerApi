@@ -8,9 +8,9 @@ namespace PlantTrackerApi.Controllers
     [Route("api/[controller]")]
     public class PlantsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly AppDbContext _context;
 
-        public PlantsController(ApplicationDbContext context)
+        public PlantsController(AppDbContext context)
         {
             _context = context;
         }
