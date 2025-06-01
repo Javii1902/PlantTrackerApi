@@ -1,28 +1,12 @@
 [
   {
-    "ContainingType": "PlantTrackerApi.Controllers.PlantsController",
+    "ContainingType": "PlantsController",
     "Method": "GetPlants",
     "RelativePath": "api/Plants",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PlantTrackerApi.Controllers.PlantsController",
-    "Method": "AddPlant",
-    "RelativePath": "api/Plants",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "plant",
-        "Type": "PlantTrackerApi.Models.Plant",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   }
 ]
