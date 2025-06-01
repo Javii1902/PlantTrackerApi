@@ -1,33 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PlantTrackerApi.Data;
 using PlantTrackerApi.Models;
 
-namespace PlantTrackerApi.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class PlantsController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class PlantsController : ControllerBase
+    private readonly AppDbContext _context;
+
+    public PlantsController(AppDbContext context)
     {
-        private readonly AppDbContext _context;
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+    }
 
-        public PlantsController(AppDbContext context)
-        {
-            _context = context;
-        }
-
-        [HttpGet]
-        public IActionResult GetPlants()
-        {
-            var plants = _context.Plants.ToList();
-            return Ok(plants);
-        }
-
-        [HttpPost]
-        public IActionResult AddPlant([FromBody] Plant plant)
-        {
-            _context.Plants.Add(plant);
-            _context.SaveChanges();
-            return CreatedAtAction(nameof(GetPlants), new { id = plant.Id }, plant);
-        }
+    [HttpGet]
+    public async Task<IActionResult> GetPlants()
+    {
+        var plants = await _context.Plants.ToListAsync();
+        return Ok(plants);
     }
 }

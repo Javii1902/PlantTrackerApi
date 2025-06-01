@@ -3,11 +3,11 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
 # Copy project files and restore dependencies
-COPY *.csproj ./ 
+COPY *.csproj ./  
 RUN dotnet restore
 
 # Copy remaining files and publish the application
-COPY . ./ 
+COPY . ./  
 RUN dotnet publish -c Release -o /app/publish
 
 # Use ASP.NET Core runtime for running the app
