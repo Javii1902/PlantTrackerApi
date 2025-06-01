@@ -1,42 +1,23 @@
-using Microsoft.EntityFrameworkCore;
-using PlantTrackerApi.Data;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
-Console.WriteLine($"Running on .NET version: {Environment.Version}");
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-    sqlOptions => sqlOptions.EnableRetryOnFailure()));
-
-// CORS policy for Azure-hosted frontend
-var allowedOrigins = builder.Configuration.GetSection("CorsSettings:AllowedOrigins").Get<string[]>();
-
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(policy =>
-    {
-        policy.WithOrigins(allowedOrigins)
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-    });
-});
+// Add services to the container
+builder.Services.AddControllers(); // Registers API controllers
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Middleware pipeline
+app.UseRouting();
+app.UseAuthorization(); // If authentication is required
 
-app.UseHttpsRedirection();
-app.UseCors();
-app.UseAuthorization();
+// Map API controllers
 app.MapControllers();
 
+// Run the app
 app.Run();
