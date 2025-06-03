@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/Plant",
+    "public": "dist/planttrackerapi",
     "ignore": [
       "firebase.json",
       "**/.*",
