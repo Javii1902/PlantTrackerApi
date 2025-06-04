@@ -57,7 +57,7 @@ jobs:
           action: "upload"
           app_location: "plant-tracker-frontend"
           api_location: ""
-          output_location: "plant-tracker-frontend/dist/plant-tracker-frontend"
+          output_location: "dist/plant-tracker-frontend"
           github_id_token: ${{ steps.idtoken.outputs.result }}
 
   close_pull_request_job:
