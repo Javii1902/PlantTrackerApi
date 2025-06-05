@@ -90,7 +90,6 @@ F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\out\PlantTrackerApi.deps
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\out\PlantTrackerApi.runtimeconfig.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\out\PlantTrackerApi.staticwebassets.endpoints.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\plant-tracker-frontend\angular.json
-F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\plant-tracker-frontend\firebase.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\plant-tracker-frontend\package-lock.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\plant-tracker-frontend\package.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\plant-tracker-frontend\tsconfig.app.json
@@ -366,3 +365,4 @@ F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\publish\plant-tracker-fr
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\publish\PlantTrackerApi.deps.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\publish\PlantTrackerApi.runtimeconfig.json
 F:\Programs\New folder\PlantTrackerApi\bin\Debug\net8.0\publish\PlantTrackerApi.staticwebassets.endpoints.json
+F:\Programs\New folder\PlantTrackerApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
