@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "F:\\Programs\\New folder\\PlantTrackerApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\planttrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:planttrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\planttrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:planttrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|solutionrelative:controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{325C71C5-783F-3E27-A606-3A01CFD4C8B0}|PlantTrackerApi.csproj|f:\\programs\\new folder\\planttrackerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -38,11 +38,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -50,11 +58,12 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T00:19:48.779Z"
+              "WhenOpened": "2025-06-01T00:19:48.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlantsController.cs",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Controllers\\PlantsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlantsController.cs",
@@ -63,6 +72,23 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T04:04:43.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T03:18:08.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -78,64 +104,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:18:08.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T03:17:29.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:17:29.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "PlantTrackerApi.csproj",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
               "RelativeDocumentMoniker": "PlantTrackerApi.csproj",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
               "RelativeToolTip": "PlantTrackerApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-25T03:16:36.155Z"
+              "WhenOpened": "2025-05-25T03:16:36.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Plant.cs",
               "DocumentMoniker": "F:\\Programs\\New folder\\PlantTrackerApi\\Models\\Plant.cs",
               "RelativeDocumentMoniker": "Models\\Plant.cs",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\Models\\Plant.cs",
               "RelativeToolTip": "Models\\Plant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:16:12.488Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "WhenOpened": "2025-05-25T03:16:12.488Z",
+              "EditorCaption": ""
             }
           ]
         }
