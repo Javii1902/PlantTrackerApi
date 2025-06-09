@@ -3,6 +3,18 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { PlantService } from '../../services/plant.service';
 
+export interface Plant {
+  id: number;
+  name: string;
+  seedType: string;
+  bestPlantingStartMonth?: number | null;
+  bestPlantingEndMonth?: number | null;
+  imageUrl?: string | null;
+  seedImageUrl?: string | null;
+  description?: string | null;
+  careInstructions?: string | null;
+}
+
 @Component({
   selector: 'app-plant-list',
   standalone: true,
@@ -11,7 +23,7 @@ import { PlantService } from '../../services/plant.service';
   styleUrls: ['./plant-list.component.css']
 })
 export class PlantListComponent implements OnInit {
-  plants: any[] = [];
+  plants: Plant[] = [];
   isLoading = true;
   error: string | null = null;
 
@@ -29,5 +41,16 @@ export class PlantListComponent implements OnInit {
         this.isLoading = false;
       }
     });
+  }
+
+  getMonthRange(start: number | null | undefined, end: number | null | undefined): string {
+    const monthNames = [ '', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
+
+    if (!start || !monthNames[start]) return '';
+    if (!end || !monthNames[end]) return monthNames[start];
+
+    return start === end
+      ? monthNames[start]
+      : `${monthNames[start]} - ${monthNames[end]}`;
   }
 }

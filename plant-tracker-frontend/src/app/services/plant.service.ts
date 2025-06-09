@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
+import { Plant } from '../components/plant-list/plant-list.component';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,7 @@ export class PlantService {
 
   constructor(private http: HttpClient) {}
 
-  getPlants(): Observable<any[]> {
-    return this.http.get<any[]>(this.apiUrl);
+  getPlants(): Observable<Plant[]> {
+    return this.http.get<Plant[]>(this.apiUrl);
   }
 }

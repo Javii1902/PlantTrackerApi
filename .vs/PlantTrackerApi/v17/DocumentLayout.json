@@ -62,8 +62,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T00:19:48.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T00:19:48.779Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:18:08.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:18:08.001Z"
             },
             {
               "$type": "Document",
@@ -122,7 +120,7 @@
               "RelativeDocumentMoniker": "PlantTrackerApi.csproj",
               "ToolTip": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
               "RelativeToolTip": "PlantTrackerApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-25T03:16:36.155Z",
               "EditorCaption": ""
@@ -137,8 +135,7 @@
               "RelativeToolTip": "Models\\Plant.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T03:16:12.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T03:16:12.488Z"
             }
           ]
         }
