@@ -20,4 +20,16 @@ public class PlantsController : ControllerBase
         var plants = await _context.Plants.ToListAsync();
         return Ok(plants);
     }
+
+    [HttpGet("user/{userId}/plants")]
+    public async Task<ActionResult<IEnumerable<Plant>>> GetUserPlants(int userId)
+    {
+        var plants = await _context.UserPlants
+            .Where(up => up.UserId == userId)
+            .Select(up => up.Plant)
+            .ToListAsync();
+
+        return Ok(plants);
+    }
+
 }

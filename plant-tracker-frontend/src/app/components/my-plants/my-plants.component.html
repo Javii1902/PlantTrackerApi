@@ -1,0 +1,15 @@
+<h2>My Plants</h2>
+<div *ngIf="isLoading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<div *ngIf="!isLoading && plants.length > 0">
+  <div *ngFor="let plant of plants">
+    <h3>{{ plant.name }}</h3>
+    <img [src]="plant.imageUrl" width="150" />
+    <p>{{ plant.description }}</p>
+  </div>
+</div>
+
+<div *ngIf="!isLoading && plants.length === 0">
+  You have no plants yet.
+</div>

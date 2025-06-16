@@ -7,12 +7,12 @@
   <div *ngIf="!isLoading && plants.length > 0">
     <div *ngFor="let plant of plants" class="plant-card">
       <h3>{{ plant.name }}</h3>
+      <p>{{ plant.description }}</p>
       <img *ngIf="plant.imageUrl" [src]="plant.imageUrl" alt="{{ plant.name }}" width="150" />
       <p *ngIf="plant.bestPlantingStartMonth">
         <strong>Best Time to Plant:</strong>
         {{ getMonthRange(plant.bestPlantingStartMonth, plant.bestPlantingEndMonth) }}
       </p>
-      <p>{{ plant.description }}</p>
     </div>
   </div>
 

@@ -1,0 +1,44 @@
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[disabled] {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.validation-error {
+  color: #d32f2f;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
+
+.error {
+  margin-top: 12px;
+  color: #c62828;
+  font-weight: bold;
+}

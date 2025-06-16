@@ -15,4 +15,9 @@ export class PlantService {
   getPlants(): Observable<Plant[]> {
     return this.http.get<Plant[]>(this.apiUrl);
   }
+
+  getUserPlants(userId: number): Observable<Plant[]> {
+  return this.http.get<Plant[]>(`${this.apiUrl}/user/${userId}/plants`);
+}
+
 }

@@ -1,11 +1,20 @@
 import { Component } from '@angular/core';
-import { PlantListComponent } from './components/plant-list/plant-list.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [PlantListComponent],
-  template: `<app-plant-list></app-plant-list>`,  // ✅ This line shows your component
+  imports: [RouterModule],
+  template: `
+    <header class="app-header">Plant Tracker</header>
+    <nav>
+      <a routerLink="/plants">Plants</a> |
+      <a routerLink="/register">Register</a>
+    </nav>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  `,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {}
