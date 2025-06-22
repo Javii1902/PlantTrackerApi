@@ -1,15 +1,11 @@
 <h2>My Plants</h2>
-<div *ngIf="isLoading">Loading...</div>
-<div *ngIf="error">{{ error }}</div>
 
-<div *ngIf="!isLoading && plants.length > 0">
-  <div *ngFor="let plant of plants">
-    <h3>{{ plant.name }}</h3>
-    <img [src]="plant.imageUrl" width="150" />
-    <p>{{ plant.description }}</p>
-  </div>
-</div>
+<form [formGroup]="addPlantForm" (ngSubmit)="addPlant()">
+  <label>Plant ID</label>
+  <input type="number" formControlName="plantId" />
+  <button type="submit">Add Plant</button>
+</form>
 
-<div *ngIf="!isLoading && plants.length === 0">
-  You have no plants yet.
-</div>
+<ul>
+  <li *ngFor="let plant of userPlants">{{ plant.name }}</li>
+</ul>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlantTrackerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80d618ebeb6068b57349d3af93c3f5dbe444f4c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb62b22031f0eba0778ceeb603b5d044ae88b6f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlantTrackerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlantTrackerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
