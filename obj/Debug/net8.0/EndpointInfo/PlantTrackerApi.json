@@ -127,6 +127,51 @@
           }
         }
       }
+    },
+    "/api/Plants/user/{userId}/add": {
+      "post": {
+        "tags": [
+          "Plants"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -185,6 +230,13 @@
           "careInstructions": {
             "type": "string",
             "nullable": true
+          },
+          "userPlants": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserPlant"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -207,6 +259,37 @@
           "passwordHash": {
             "type": "string",
             "nullable": true
+          },
+          "userPlants": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserPlant"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserPlant": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "plantId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/UserAccount"
+          },
+          "plant": {
+            "$ref": "#/components/schemas/Plant"
           }
         },
         "additionalProperties": false

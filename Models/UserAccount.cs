@@ -1,10 +1,15 @@
-﻿namespace PlantTrackerApi.Models
+﻿using System.Collections.Generic;
+
+namespace PlantTrackerApi.Models
 {
     public class UserAccount
     {
         public int Id { get; set; }
-        public string Username { get; set; }
-        public string Email { get; set; }
-        public string PasswordHash { get; set; }  // Store hashed passwords, not plain text
+        public string Username { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string PasswordHash { get; set; } = null!;
+
+        // Navigation property for UserPlants (many-to-many via UserPlant)
+        public ICollection<UserPlant> UserPlants { get; set; } = new List<UserPlant>();
     }
 }

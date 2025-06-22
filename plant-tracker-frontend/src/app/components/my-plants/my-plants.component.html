@@ -1,8 +1,8 @@
 <h2>My Plants</h2>
 
 <form [formGroup]="addPlantForm" (ngSubmit)="addPlant()">
-  <label>Plant ID</label>
-  <input type="number" formControlName="plantId" />
+  <label for="plantId">Plant ID:</label>
+  <input id="plantId" formControlName="plantId" type="number" required />
   <button type="submit">Add Plant</button>
 </form>
 

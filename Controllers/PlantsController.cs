@@ -32,4 +32,26 @@ public class PlantsController : ControllerBase
         return Ok(plants);
     }
 
+    [HttpPost("user/{userId}/add")]
+    public async Task<IActionResult> AddUserPlant(int userId, [FromBody] int plantId)
+    {
+        var user = await _context.UserAccounts.FindAsync(userId);
+        var plant = await _context.Plants.FindAsync(plantId);
+
+        if (user == null || plant == null)
+            return NotFound();
+
+        var userPlant = new UserPlant
+        {
+            UserId = userId,
+            PlantId = plantId
+        };
+
+        _context.UserPlants.Add(userPlant);
+        await _context.SaveChangesAsync();
+
+        return Ok(new { message = "Plant added to user" });
+    }
+
+
 }
