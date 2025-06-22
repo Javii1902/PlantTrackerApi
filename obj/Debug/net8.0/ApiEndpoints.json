@@ -43,6 +43,27 @@
   },
   {
     "ContainingType": "PlantsController",
+    "Method": "AddUserPlant",
+    "RelativePath": "api/Plants/user/{userId}/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "plantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlantsController",
     "Method": "GetUserPlants",
     "RelativePath": "api/Plants/user/{userId}/plants",
     "HttpMethod": "GET",

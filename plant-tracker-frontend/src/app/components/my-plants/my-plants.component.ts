@@ -1,53 +1,57 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
-import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
-import { environment } from '../../../environments/environment';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { PlantService } from '../../services/plant.service';
 import { AuthService } from '../../services/auth.service';
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-my-plants',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, HttpClientModule],
   templateUrl: './my-plants.component.html',
   styleUrls: ['./my-plants.component.css']
 })
 export class MyPlantsComponent implements OnInit {
+  addPlantForm!: FormGroup;
   userPlants: any[] = [];
-  addPlantForm = this.fb.group({
-    plantId: ['', Validators.required]
-  });
+  userId: number | null = null;
 
   constructor(
-    private http: HttpClient,
     private fb: FormBuilder,
+    private plantService: PlantService,
     private authService: AuthService
   ) {}
 
   ngOnInit(): void {
-    this.loadPlants();
+    this.userId = this.authService.getUserId();
+    this.addPlantForm = this.fb.group({
+      plantId: ['', Validators.required]
+    });
+
+    if (this.userId) {
+      this.loadUserPlants();
+    }
   }
 
-  loadPlants(): void {
-    const userId = this.authService.getUserId();
-    if (!userId) return;
-
-    this.http.get<any[]>(`${environment.apiUrl}/plants/user/${userId}/plants`).subscribe({
-      next: (data) => this.userPlants = data,
-      error: () => console.error('Failed to load user plants')
+  loadUserPlants(): void {
+    this.plantService.getPlantsForUser(this.userId!).subscribe(plants => {
+      this.userPlants = plants;
     });
   }
 
   addPlant(): void {
-    const userId = this.authService.getUserId();
-    if (!userId || this.addPlantForm.invalid) return;
+    if (this.addPlantForm.invalid || !this.userId) return;
 
-    this.http.post(`${environment.apiUrl}/userplants`, {
-      userId: userId,
-      plantId: this.addPlantForm.value.plantId
-    }).subscribe(() => {
-      this.addPlantForm.reset();
-      this.loadPlants();
+    const plantId = this.addPlantForm.value.plantId;
+    this.plantService.addPlantToUser(this.userId, plantId).subscribe({
+      next: () => {
+        this.loadUserPlants(); // Refresh the list
+        this.addPlantForm.reset();
+      },
+      error: (err) => {
+        console.error('Error adding plant:', err);
+      }
     });
   }
 }
