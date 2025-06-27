@@ -16,6 +16,9 @@ export class MyPlantsComponent implements OnInit {
   addPlantForm!: FormGroup;
   userPlants: any[] = [];
   userId: number | null = null;
+  isLoading = false;
+  isAdding = false;
+  addErrorMessage: string | null = null;
 
   constructor(
     private fb: FormBuilder,
@@ -35,22 +38,36 @@ export class MyPlantsComponent implements OnInit {
   }
 
   loadUserPlants(): void {
-    this.plantService.getPlantsForUser(this.userId!).subscribe(plants => {
-      this.userPlants = plants;
+    this.isLoading = true;
+    this.plantService.getPlantsForUser(this.userId!).subscribe({
+      next: (plants) => {
+        this.userPlants = plants;
+        this.isLoading = false;
+      },
+      error: (err) => {
+        console.error('Error loading user plants:', err);
+        this.isLoading = false;
+      }
     });
   }
 
   addPlant(): void {
     if (this.addPlantForm.invalid || !this.userId) return;
 
+    this.isAdding = true;
+    this.addErrorMessage = null;
     const plantId = this.addPlantForm.value.plantId;
+
     this.plantService.addPlantToUser(this.userId, plantId).subscribe({
       next: () => {
-        this.loadUserPlants(); // Refresh the list
+        this.loadUserPlants();
         this.addPlantForm.reset();
+        this.isAdding = false;
       },
       error: (err) => {
         console.error('Error adding plant:', err);
+        this.addErrorMessage = 'Failed to add plant.';
+        this.isAdding = false;
       }
     });
   }

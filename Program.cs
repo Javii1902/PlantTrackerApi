@@ -8,17 +8,17 @@ using PlantTrackerApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Register Controllers and Swagger
+// Register Controllers and Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Register DbContext using Connection String from appsettings.json
+// Register DbContext using Connection String from appsettings.json
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString, sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
-//Configure CORS from appsettings.json
+// Configure CORS from appsettings.json
 var allowedOrigins = builder.Configuration
     .GetSection("CorsSettings:AllowedOrigins")
     .Get<string[]>();
@@ -35,16 +35,24 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-//Swagger only in Development
+// Swagger only in Development
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-//Middleware
+// ✅ Serve Static Files (e.g., Angular built files in wwwroot)
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+// ✅ Middleware
 app.UseHttpsRedirection();
-app.UseCors("AllowFrontend"); // Make sure policy name matches
+app.UseCors("AllowFrontend");
 app.UseAuthorization();
 app.MapControllers();
+
+// ✅ SPA fallback
+app.MapFallbackToFile("index.html");
+
 app.Run();

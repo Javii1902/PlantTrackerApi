@@ -1,6 +1,31 @@
-form {
-  margin-bottom: 16px;
+.plants-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center; /* center the grid horizontally */
+  margin-top: 20px;
 }
-ul {
-  list-style-type: square;
+
+.plant-card {
+  width: 150px;
+  text-align: center; /* center contents inside each card */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #fafafa;
+}
+
+.plant-name {
+  text-align: left; /* name slightly to the left */
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+
+.plant-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: contain;
 }

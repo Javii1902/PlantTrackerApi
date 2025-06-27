@@ -3,9 +3,27 @@
 <form [formGroup]="addPlantForm" (ngSubmit)="addPlant()">
   <label for="plantId">Plant ID:</label>
   <input id="plantId" formControlName="plantId" type="number" required />
-  <button type="submit">Add Plant</button>
+  <button type="submit" [disabled]="addPlantForm.invalid || isAdding">
+    {{ isAdding ? 'Adding...' : 'Add Plant' }}
+  </button>
 </form>
 
-<ul>
-  <li *ngFor="let plant of userPlants">{{ plant.name }}</li>
-</ul>
+<div *ngIf="addErrorMessage" class="error">{{ addErrorMessage }}</div>
+
+<div *ngIf="isLoading">Loading your plants...</div>
+
+<div *ngIf="!isLoading && userPlants.length > 0" class="plants-grid">
+  <div *ngFor="let plant of userPlants" class="plant-card">
+    <div class="plant-name">{{ plant.name }}</div>
+    <img
+      *ngIf="plant.imageUrl"
+      [src]="plant.imageUrl"
+      alt="{{ plant.name }}"
+      class="plant-image"
+    />
+  </div>
+</div>
+
+<div *ngIf="!isLoading && userPlants.length === 0">
+  You have no plants yet.
+</div>
