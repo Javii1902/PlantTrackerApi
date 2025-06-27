@@ -53,5 +53,4 @@ public class PlantsController : ControllerBase
         return Ok(new { message = "Plant added to user" });
     }
 
-
 }
