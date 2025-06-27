@@ -44,7 +44,7 @@ jobs:
           action: "upload"
           app_location: "plant-tracker-frontend"
           api_location: ""
-          output_location: "dist/plant-tracker-frontend/browser"
+          output_location: "dist/plant-tracker-frontend"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
