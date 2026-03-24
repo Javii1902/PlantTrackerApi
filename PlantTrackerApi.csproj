@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Path from API project to Angular project -->
+    <SpaRoot>plant-tracker-frontend\</SpaRoot>
+
+    <!-- Adjust if your dist path is different -->
+    <SpaDist>$(SpaRoot)dist\plant-tracker-frontend\browser\</SpaDist>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,5 +22,21 @@
   <ItemGroup>
     <Folder Include="Migrations\" />
   </ItemGroup>
+
+  <!-- Build Angular and copy dist into wwwroot on publish -->
+  <Target Name="PublishAngular" AfterTargets="ComputeFilesToPublish">
+    <!-- Build Angular in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --configuration production" />
+
+    <!-- Copy Angular dist contents into wwwroot in publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaDist)**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>wwwroot\%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
 
 </Project>

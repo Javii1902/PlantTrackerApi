@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj": {}
+    "F:\\Coding Programs\\PlantTrackerApi\\PlantTrackerApi.csproj": {}
   },
   "projects": {
-    "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj": {
+    "F:\\Coding Programs\\PlantTrackerApi\\PlantTrackerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
+        "projectUniqueName": "F:\\Coding Programs\\PlantTrackerApi\\PlantTrackerApi.csproj",
         "projectName": "PlantTrackerApi",
-        "projectPath": "F:\\Programs\\New folder\\PlantTrackerApi\\PlantTrackerApi.csproj",
+        "projectPath": "F:\\Coding Programs\\PlantTrackerApi\\PlantTrackerApi.csproj",
         "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
-        "outputPath": "F:\\Programs\\New folder\\PlantTrackerApi\\obj\\",
+        "outputPath": "F:\\Coding Programs\\PlantTrackerApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
